@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run>
+	<id>R2</id>
+	<name>Test Run 10/21/2022</name>
+	<description></description>
+	<config></config>
+	<createdon>2022-10-21T17:54:25Z</createdon>
+		<completed>false</completed>
+		<milestone></milestone>
+	<stats>
+										<passed>
+			<percent>85</percent>
+			<count>11</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>0</percent>
+			<count>0</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>15</percent>
+			<count>2</count>
+		</failed>
+																																																				</stats>	<sections>
+		<section>
+		<name>Страница авторизации</name>
+		<description>Содержит все тест-кейсы, котрые можно провести на главной странице/странице авторизации сайта Bumbleby (https://qa.neapro.site).</description>
+									</section>
+		<section>
+		<name>Личный кабинет</name>
+		<description>Содержит все тест-кейсы, которые можно провести на странице &quot;Личный кабинет&quot; сайта Bumbleby (https://qa.neapro.site) 
+(Работа кнопок, орфография, оформление, UX)</description>
+									</section>
+		<section>
+		<name>Форма &quot;Регистрация нового пользователя&quot;</name>
+		<description>Содержит все тест-кейсы, которые можно провести на странице &quot;Регистрация нового пользователя&quot; сайта Bumbleby (https://qa.neapro.site)
+(Работа кнопок, орфография, оформление, UX и т.д.)
+
+Путь: Главная страница - кнопка &quot;Регистрация&quot;</description>
+									</section>
+		<section>
+		<name>Форма &quot;Сбросить пароль&quot;</name>
+		<description>Содержит все тест-кейсы, которые можно провести в форме &quot;Сбросить пароль&quot; сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+Путь: Главная страницы - ссылка &quot;Забыли пароль&quot;.</description>
+									</section>
+		<section>
+		<name>Форма &quot;Данные&quot;</name>
+		<description>Содержит все тест-кейсы, которые можно провести в форме &quot;Данные&quot;сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+
+
+Путь: Личный кабинет - кнопка &quot;Личные данные&quot; - форма &quot;Данные&quot;.</description>
+									</section>
+		<section>
+		<name>Форма &quot;Безопасность и вход&quot;</name>
+		<description>Содержит все тест-кейсы, которые можно провести в форме &quot;Безопасность и вход&quot; сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+
+
+Путь: Личный кабинет - кнопка &quot;Безопасность и вход&quot;.</description>
+									</section>
+		<section>
+		<name>Форма &quot;Введите новый номер&quot;</name>
+		<description>Содержит все тест-кейсы, которые можно провести в форме &quot;Введите новый номер&quot; сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+
+Путь: Личный кабинет - кнопка &quot;Безопасность и вход&quot; - кнопка &quot;Изменить номер телефона&quot;.</description>
+									</section>
+		<section>
+		<name>Тестирование кнопок</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Форма &quot;Смена пароля&quot;</name>
+		<description>Содержит все тест-кейсы, которые можно провести в форме &quot;Смена пароля&quot; сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+
+Путь: Личный кабинет - кнопка &quot;Безопасность и вход&quot; - кнопка &quot;Изменить пароль&quot;.</description>
+									</section>
+		<section>
+		<name>Форма &quot;Документы пользователя&quot;</name>
+		<description>Содержит все тест-кейсы, которые можно провести в форме &quot;Документы пользователя&quot; сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+
+Путь: Личный кабинет - кнопка &quot;Документы&quot;</description>
+									</section>
+		<section>
+		<name>Блок &quot;Персональные данные&quot;</name>
+		<description>Содержит все тест-кейсы, которые можно провести в блоке &quot;Персональные данные&quot; сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+
+Путь: Личный кабинет - кнопка &quot;Документы&quot; - блок &quot;Персональные данные&quot;</description>
+									</section>
+		<section>
+		<name>Форма &quot;Паспорт&quot;</name>
+		<description>Содержит все тест-кейсы, которые можно провести в форме &quot;Паспорт&quot; сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+
+Путь: Личный кабинет - кнопка &quot;Документы&quot; - блок &quot;Персональные данные&quot; - кнопка &quot;Паспорт&quot;</description>
+									</section>
+		<section>
+		<name>Тестирование датапикеров</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Тестирование загрузки файлов</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Тестирование полей &quot;Фамилия&quot;, &quot;Имя&quot;, Отчество&quot;</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Тестирование полей с масками (Серия, Номер, Код подразделения, СНИЛС, Телефон)</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Форма &quot;Диплом&quot;</name>
+		<description>Содержит все тест-кейсы, которые можно провести в форме &quot;Диплом&quot; сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+
+Путь: Личный кабинет - кнопка &quot;Документы&quot; - блок &quot;Персональные данные&quot; - кнопка &quot;Диплом&quot;.</description>
+									</section>
+		<section>
+		<name>Загрузка файлов</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Блок &quot;Документы на обучение&quot;</name>
+		<description>Содержит все тест-кейсы, которые можно провести в блоке &quot;Документы на обучение&quot; сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+
+Путь: Личный кабинет - кнопка &quot;Документы&quot; - блок &quot;Документы на обучение&quot;</description>
+									</section>
+		<section>
+		<name>Форма &quot;Договор&quot;</name>
+		<description>Содержит все тест-кейсы, которые можно провести в форме &quot;Договор&quot; сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+
+Путь: Личный кабинет - кнопка &quot;Документы&quot; - блок &quot;Документы на обучение&quot; - кнопка &quot;Договор&quot;</description>
+									</section>
+		<section>
+		<name>Форма &quot;Заявление&quot;</name>
+		<description>Содержит все тест-кейсы, которые можно провести в форме &quot;Заявление&quot; сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+
+Путь: Личный кабинет - кнопка &quot;Документы&quot; - блок &quot;Документы на обучение&quot; - кнопка &quot;Заявление&quot;.</description>
+									</section>
+		<section>
+		<name>Форма &quot;Согласие&quot;</name>
+		<description>Содержит все тест-кейсы, которые можно провести в форме &quot;Согласие&quot; сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+
+Путь: Личный кабинет - кнопка &quot;Документы&quot; - блок &quot;Документы на обучение&quot; - кнопка &quot;Согласие&quot;.</description>
+									</section>
+		<section>
+		<name>Работа кнопок</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Форма &quot;Диплом и сертификат&quot;</name>
+		<description>Содержит все тест-кейсы, которые можно провести в форме &quot;Диплом и сертификат&quot; сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+
+Путь: Личный кабинет - кнопка &quot;Диплом и сертификат&quot;.</description>
+									</section>
+		<section>
+		<name>Боковая панель (Sidebar)</name>
+		<description>Содержит все тест-кейсы, которыми можно проверить боковую панель сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+
+Путь: Личный кабинет - боковая панель.</description>
+						<tests>
+																																																									<test>
+				<id>T512</id>
+				<title>Раскрытие боковой панели</title>
+												<template>Test Case (Text)</template>
+																<type>Smoke &amp; Sanity</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открытие сайта</preconds>
+										<steps>1. Открыть главную страницу сайта
+2. Навести значок мышки на боковую панель</steps>
+										<expected>Панель разворачивается.</expected>
+									</custom>
+												<caseid>C762</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-21T17:54:48Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-21T17:54:25Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T513</id>
+				<title>Сворачиваемость боковой панели</title>
+												<template>Test Case (Text)</template>
+																<type>Smoke &amp; Sanity</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыть главную страницу сайта</preconds>
+										<steps>1. Открыть сайт
+2. Навести значок мышки на боковую панель
+3. Убрать значок мышки с боковой панели</steps>
+										<expected>Боковая панель сворачивается</expected>
+									</custom>
+												<caseid>C763</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-21T17:54:56Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-21T17:54:25Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T514</id>
+				<title>Наличие логотипа</title>
+												<template>Test Case (Text)</template>
+																<type>Smoke &amp; Sanity</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Развернуть боковую панель</preconds>
+										<steps>1. Навести значок мышки на боковой панели.
+2. Проверить наличие элемента &quot;Логотип&quot;.
+3. Кликнуть на логотип.</steps>
+										<expected>Переход с боковой панели на страницу с обычными занятиями. ___Логотип присутствует___.</expected>
+									</custom>
+												<caseid>C764</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-21T17:55:08Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-21T17:54:25Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T515</id>
+				<title>Иконка аватара пользователя</title>
+												<template>Test Case (Text)</template>
+																<type>Smoke &amp; Sanity</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыть боковую панель</preconds>
+										<steps>1. Развернуть боковую панель 
+2. Проверить наличие Иконки Аватара пользователя 
+3. Кликнуть на аватар пользователя 
+4. Перейти на страницу &quot;Личный кабинет&quot;</steps>
+										<expected>Переход на страницу &quot;Личный кабинет&quot;, иконка присутствует.</expected>
+									</custom>
+												<caseid>C765</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-21T17:55:17Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-21T17:54:25Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T516</id>
+				<title>Кнопка &quot;Расписание&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Smoke &amp; Sanity</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Раскрыть боковую панель</preconds>
+										<steps>1. Раскрыть боковую панель
+2. Проверить наличие элемента &quot;Расписание&quot;
+3. Кликнуть на кнопка &quot;Расписание&quot;
+4. Перейти на страницу с расписанием занятий.</steps>
+										<expected>Переход на страницу с расписанием занятий.</expected>
+									</custom>
+												<caseid>C766</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-21T18:41:00Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-21T17:54:25Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T517</id>
+				<title>Кнопка &quot;Учеба&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Smoke &amp; Sanity</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Раскрыть боковую панель</preconds>
+										<steps>1. Раскрыть боковую панель.
+2. Проверить наличие кнопки &quot;Учёба&quot;.
+3. кликнуть на кнопку-ссылку &quot;учеба&quot;.
+4. Перейти на страницу с материалами обучения и статистикой студента.</steps>
+										<expected>Переход на страницу с материалами и статистикой студента.</expected>
+									</custom>
+												<caseid>C767</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-21T18:41:08Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-21T17:54:25Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T518</id>
+				<title>Кнопка &quot;Выход&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Smoke &amp; Sanity</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Раскрыть боковую панель.</preconds>
+										<steps>1. Раскрыть боковую панель
+2. Проверить наличие кнопки &quot;выход&quot;
+3. Нажать на кнопку.</steps>
+										<expected>Переход на главную страницу сайта.</expected>
+									</custom>
+												<caseid>C768</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-21T18:41:44Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-21T17:54:25Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T519</id>
+				<title>Кнопка &quot;Профиль&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Smoke &amp; Sanity</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Раскрыть боковую панель.</preconds>
+										<steps>1. Раскрыть боковую панель
+2. проверить наличие кнопки &quot;Профиль&quot;
+3. Нажать на кнопку &quot;профиль&quot;</steps>
+										<expected>Переход на страницу профиля пользователя.</expected>
+									</custom>
+												<caseid>C769</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-21T18:41:59Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-21T17:54:25Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>Footer страницы</name>
+		<description>Содержит все тест-кейсы, которыми можно проверить footer страницы сайта Bumbleby (https://qa.neapro.site) (Работа кнопок, орфография, оформление, UX и т.д.)
+
+Путь: Личный кабинет - Footer.</description>
+						<tests>
+																																																									<test>
+				<id>T520</id>
+				<title>Наличие в разделе &quot;Страница авторизации&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Smoke &amp; Sanity</type>
+																<priority>Low</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыть страницу авторизации</preconds>
+										<steps>1. Найти элемент
+2. Проверить содержание элемента</steps>
+										<expected>Футер есть</expected>
+									</custom>
+												<caseid>C770</caseid>
+																<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-21T18:44:02Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-21T17:54:25Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T521</id>
+				<title>Правильность написания</title>
+												<template>Test Case (Text)</template>
+																<type>Smoke &amp; Sanity</type>
+																<priority>Low</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыть сайт</preconds>
+										<steps>1. Найти элемент
+2. проверить текст элемента</steps>
+										<expected>Верно введенный текст элемента</expected>
+									</custom>
+												<caseid>C771</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-21T18:44:14Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-21T17:54:25Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T522</id>
+				<title>Проверка оформления пробелов</title>
+												<template>Test Case (Text)</template>
+																<type>Smoke &amp; Sanity</type>
+																<priority>Low</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыть сайт
+2. Открыть DevTools</preconds>
+										<steps>1.Найти элемент
+2.Проверить наличие лишних пробелов</steps>
+										<expected>Чисто написанный текст</expected>
+									</custom>
+												<caseid>C772</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-21T18:46:20Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-21T17:54:25Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T523</id>
+				<title>Работа кнопки с номером телефона</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыть сайт</preconds>
+										<steps>1. Найти элемент
+2. Нажать кнопку-ссылку с номером телефона
+3. Проверить переход в стороннее приложение для набора номера</steps>
+										<expected>Переход в стороннее приложение для набора номера</expected>
+									</custom>
+												<caseid>C773</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-21T18:48:04Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-21T17:54:25Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T524</id>
+				<title>Работа кнопки с электронным адресом</title>
+												<template>Test Case (Text)</template>
+																<type>Smoke &amp; Sanity</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыть сайт</preconds>
+										<steps>1. Найти элемент.
+2. Проверить наличие Кнопки-ссылки с электронным адресом.
+3. Нажать на кнопку-ссылку.
+4. Проверить открытие стороннего приложения для написания электронного письма.</steps>
+										<expected>Открытие стороннего приложения для написания электронного письма.</expected>
+									</custom>
+												<caseid>C774</caseid>
+																<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-10-21T18:49:29Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-10-21T17:54:25Z</createdon>
+																		<createdby>Кравченко Алина</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+</run>
